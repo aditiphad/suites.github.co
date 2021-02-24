@@ -1,0 +1,643 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: block;
+    }
+    
+    .firstHalf {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .h3 {
+        float: left;
+        padding: 8px;
+        color: white;
+        font-size: larger;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .navtop {
+        overflow: hidden;
+        display: reverse flex;
+    }
+    
+    .navtop a {
+        padding: 8px;
+        text-decoration: none;
+        float: right;
+        display: block;
+        color: white;
+    }
+    
+    .navtop a:hover {
+        font-size: larger;
+        color: rgb(130, 190, 240);
+        background-color: white;
+    }
+    
+    .navtop span:before {
+        margin-left: 0;
+        font-size: 12px;
+    }
+    
+    .navtop span {
+        font-size: 10px;
+        color: white;
+    }
+    
+    .navtop span:hover {
+        color: cadetblue;
+    }
+    
+    .firstSection {
+        width: 100%;
+        height: 50vh;
+    }
+    
+    .background {
+        background: powderblue url(images/mal.jpg);
+        background-blend-mode: darken;
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .plarge {
+        color: white;
+        padding-top: 10%;
+        text-align: center;
+        font-size: xx-large;
+    }
+    
+    .psmall {
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+    /* ############# Room cards ######################## */
+    
+    .secondHalf {
+        width: 100%;
+        padding: 10%;
+    }
+    
+    h3 {
+        color: black;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        text-align: center;
+        padding: 5%;
+    }
+    
+    .words {
+        padding: 20px;
+    }
+    
+    .card {
+        width: calc(33.33%);
+        text-align: center;
+        float: left;
+        padding: 30px;
+    }
+    
+    .image {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .words>h6 {
+        color: rgb(171, 183, 197);
+        font-size: 15px;
+    }
+    /* ################# About Us ######################### */
+    
+    #about {
+        background-color: white;
+    }
+    
+    .aboutus {
+        padding-top: 10px;
+    }
+    
+    .thirdHalf {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    .outer_img {
+        height: 400;
+        width: 450px;
+        padding: 50px;
+    }
+    
+    .inner_image {
+        width: 200px;
+        height: 150px;
+        border: 10px solid white;
+        position: absolute;
+        margin-top: 15%;
+        left: 250px;
+    }
+    
+    .about_ {
+        padding: 230px, 80px;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    
+    .about_para {
+        color: rgb(184, 186, 187);
+    }
+    
+    p a {
+        color: tomato;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: 12px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    
+    p a:hover {
+        font-size: 18px;
+    }
+    
+    p span::before {
+        margin-left: 0;
+        font-size: 0;
+    }
+    
+    p span {
+        color: tomato;
+        font-size: 2px;
+    }
+    
+    p span::after {
+        margin-left: 0;
+    }
+    
+    textbox {
+        float: right;
+        width: 50%;
+        margin: 0;
+        padding: 5%;
+    }
+    
+    .text_box {
+        overflow: hidden;
+    }
+    /* ######### Hotel Features ############## */
+    
+    .facilities {
+        background-color: #fff;
+    }
+    
+    .hotel_ {
+        text-align: center;
+        padding-top: 10%;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .hotel {
+        padding-left: 10%;
+    }
+    
+    .features {
+        float: left;
+        width: 25%;
+        padding: 10px;
+    }
+    
+    .features span {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    .hotel:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    .features span:before {
+        font-size: 50px;
+        margin-left: 0;
+    }
+    
+    .features span {
+        font-size: 50px;
+        color: red;
+        margin: 10px;
+    }
+    
+    .ammenities {
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    /* ################## For promo ################# */
+    
+    .promo {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.966);
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        width: 100%;
+        padding-top: 10px;
+    }
+    
+    .promo img {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .offer {
+        vertical-align: middle;
+        text-transform: capitalize;
+        transform: translateY(120px);
+    }
+    
+    .butn {
+        background-color: transparent;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        padding: 4px;
+        cursor: pointer;
+        border: 1px solid rgb(255, 233, 111);
+        transform: translateY(125px);
+    }
+    
+    .butn:hover {
+        background-color: rgb(255, 233, 111);
+        color: whitesmoke;
+        border-radius: 2px;
+        color: rgb(255, 125, 102);
+    }
+    /* ###################### our gallery ################### */
+    
+    div.pic {
+        text-align: center;
+    }
+    
+    div.pic img {
+        width: 200px;
+        height: 200px;
+        padding: 3px;
+    }
+    /* ################### Upcoming Events ####################### */
+    
+    .p2 {
+        padding: 8%;
+        font-size: 35px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-transform: capitalize;
+    }
+    
+    .imag {
+        padding: 5px;
+        width: 100%;
+        height: 100px
+    }
+    
+    .ad {
+        color: rgb(190, 187, 187);
+        font-size: small;
+    }
+    
+    .even {
+        background-color: white;
+    }
+    
+    .event_card {
+        float: left;
+        padding: 50px 60px;
+        width: calc(33.33%);
+        text-align: left;
+    }
+    
+    .event_card:hover {
+        box-shadow: 0 8px 16px 0 rgb(80, 80, 80);
+    }
+    /* ################ what people say####################### */
+    
+    .fifthHalf {
+        width: 100%;
+        background-color: rgb(247, 245, 245);
+    }
+    
+    .johnson {
+        float: left;
+        vertical-align: middle;
+    }
+    
+    .johnson img {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .client {
+        color: black;
+        padding-left: 10px;
+    }
+    
+    .client_ {
+        color: rgb(180, 180, 180);
+        padding-left: 20px;
+    }
+    
+    .girl {
+        float: left;
+        width: 50%;
+        height: 50%;
+        padding: 10%;
+    }
+    
+    .girls::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /* ############# Footer ################### */
+    
+    .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .footer {
+        background-color: #24262b;
+        padding: 70px 0;
+    }
+    
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+    }
+    
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+        color: rgb(221, 221, 221);
+        padding-left: 8px;
+    }
+    
+    .footer-col .social-links a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        color: white;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        transition: all 0.5s ease;
+    }
+    
+    .container {
+        max-width: 1170px;
+        margin: auto;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    .footer {
+        background-color: #24262b;
+        padding: 70px 0;
+    }
+    
+    .footer-col {
+        width: 25%;
+        padding: 0 15px;
+    }
+    
+    .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .footer-col h4::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    
+    .footer-col ul li:not(:last-child) {
+        margin-bottom: 10px;
+    }
+    
+    .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    
+    .footer-col ul li a:hover {
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    
+    .footer-col>i {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    
+    .btn {
+        border-radius: 50px;
+        background-color: tomato;
+        color: white;
+        padding: 10px;
+    }
+    
+    .info {
+        color: rgb(221, 221, 221);
+    }
+    /*responsive*/
+    
+    @media(max-width: 767px) {
+        .footer-col {
+            width: 50%;
+            margin-bottom: 30px;
+        }
+        .fifthHalf {
+            background-color: rgb(248, 248, 248);
+            margin-top: 20px;
+        }
+        .girl {
+            float: left;
+            width: 100%;
+            padding: 10px;
+            height: 100px;
+        }
+        .girls {
+            display: flexbox;
+        }
+    }
+    
+    @media(max-width: 574px) {
+        .footer-col {
+            width: 100%;
+        }
+    }
+    /* ############ Responsive cards ############### */
+    /* @media only screen and (max-width: 700px) {
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-family: Arial;
+        max-width: 100%;
+        flex-direction: column-reverse;
+    }
+    header {
+        width: 100%;
+    }
+    .firstSection {
+        width: 100%;
+        height: 50vh;
+    }
+    .navsuites {
+        overflow: hidden;
+        padding: 2px;
+    }
+    .navsuites a {
+        font-size: x-small;
+        float: right;
+        text-align: center;
+        padding: 2px;
+    }
+    .h3 {
+        float: left;
+        padding: 8px;
+        float: left;
+    }
+    .plarge {
+        font-size: 15px;
+        padding-top: 30%;
+        text-align: center;
+    }
+    .psmall {
+        font-size: 10px;
+        text-align: center;
+    }
+    [class*="col-"] {
+        width: 100%;
+    }
+    .columns {
+        width: 100%;
+        display: block;
+        margin: 20px;
+    }
+    .background {
+        background-size: cover;
+        background: url(images/mal.jpg);
+        background-repeat: no-repeat;
+        position: center;
+        max-width: 100%;
+    }
+    /*######## Rooms ############*/
+    /* #rooms {
+        text-align: center;
+        padding-top: 20px;
+        display: flex;
+        height: auto;
+        max-width: 100%;
+    }
+    .par {
+        margin: -560px 134px 0 398px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: rgb(114, 114, 114);
+        padding: 230px 80px;
+    }
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: rgb(114, 114, 114);
+        /* padding: 50px; */
+    /* } */
+    /* ####### Gallery####### */
+    /* div.pic div.row {
+        flex-flow: row;
+        align-items: center;
+    }  */
+    /* ###### promo ####### */
+    /* .promo {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.966);
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        width: 100%;
+        padding-top: 250px;
+    } */
+    /* ########## what people say  ################ */
+    /*  */

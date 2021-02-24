@@ -1,0 +1,68 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 20/02/2021 17:27
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-instagram:before { content: "\f100"; }
+.flaticon-garage:before { content: "\f101"; }
+.flaticon-facebook:before { content: "\f102"; }
+.flaticon-twitter:before { content: "\f103"; }
+.flaticon-vimeo:before { content: "\f104"; }
+.flaticon-hair-dryer:before { content: "\f105"; }
+.flaticon-information-desk:before { content: "\f106"; }
+.flaticon-emergency-exit:before { content: "\f107"; }
+.flaticon-beach-bar:before { content: "\f108"; }
+.flaticon-bar-counter:before { content: "\f109"; }
+.flaticon-swimming-pool:before { content: "\f10a"; }
+.flaticon-car:before { content: "\f10b"; }
+.flaticon-down-arrow:before { content: "\f10c"; }
+.flaticon-right-arrow:before { content: "\f10d"; }
+    
+    $font-Flaticon-instagram: "\f100";
+    $font-Flaticon-garage: "\f101";
+    $font-Flaticon-facebook: "\f102";
+    $font-Flaticon-twitter: "\f103";
+    $font-Flaticon-vimeo: "\f104";
+    $font-Flaticon-hair-dryer: "\f105";
+    $font-Flaticon-information-desk: "\f106";
+    $font-Flaticon-emergency-exit: "\f107";
+    $font-Flaticon-beach-bar: "\f108";
+    $font-Flaticon-bar-counter: "\f109";
+    $font-Flaticon-swimming-pool: "\f10a";
+    $font-Flaticon-car: "\f10b";
+    $font-Flaticon-down-arrow: "\f10c";
+    $font-Flaticon-right-arrow: "\f10d";
